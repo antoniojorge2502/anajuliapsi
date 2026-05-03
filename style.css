@@ -34,18 +34,13 @@ body::before {
   background:
     radial-gradient(
       circle at 25% 25%,
-      rgba(255, 255, 255, 0.25) 0px,
+      rgba(255, 255, 255, 0.25),
       transparent 140px
     ),
     radial-gradient(
       circle at 70% 30%,
-      rgba(255, 255, 255, 0.2) 0px,
+      rgba(255, 255, 255, 0.2),
       transparent 180px
-    ),
-    radial-gradient(
-      circle at 35% 75%,
-      rgba(255, 255, 255, 0.18) 0px,
-      transparent 160px
     ),
     linear-gradient(135deg, #f76b6b, #fda085, #fbc2a0);
 
