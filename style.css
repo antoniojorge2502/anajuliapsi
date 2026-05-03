@@ -25,27 +25,12 @@ body {
   min-height: 100%;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
+html {
+  background: linear-gradient(135deg, #f76b6b, #fda085, #fbc2a0);
+}
 
-  background:
-    radial-gradient(
-      circle at 25% 25%,
-      rgba(255, 255, 255, 0.25),
-      transparent 140px
-    ),
-    radial-gradient(
-      circle at 70% 30%,
-      rgba(255, 255, 255, 0.2),
-      transparent 180px
-    ),
-    linear-gradient(135deg, #f76b6b, #fda085, #fbc2a0);
-
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background: transparent;
 }
 
 body {
