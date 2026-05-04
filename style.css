@@ -2,7 +2,7 @@
   --primary: #f76b6b;
   --secondary: #fda085;
   --accent: #fbc2a0;
-  --text-dark: #2d2d2d;
+  --text-dark: #333;
   --text-medium: #555555;
   --text-light: #f4f4f4;
   --highlight: #ffffff;
@@ -144,7 +144,7 @@ p {
   text-decoration-line: none;
 
   background: linear-gradient(135deg, #ffffff, #f3f3f3);
-  color: #333;
+  color: var(--text-dark);
 
   border-radius: 12px;
   border: none;
